@@ -151,6 +151,7 @@ def lights_on():
     # triggers re-setting the neopixels
     macropad.pixels.brightness = 1
     apps[app_index].set_pixels()
+    macropad.pixels.show()
 
 
 def lights_off():
